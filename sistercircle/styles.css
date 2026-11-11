@@ -1,0 +1,99 @@
+
+	/* Global colors */
+:root {
+    --primary-color: #4f46e5;
+    --color-primary: #4f46e5;
+    --color-primary-dark: #3730a3;
+    --color-background: #F8F6F1;
+    --color-text:#1e293b;
+    --color-muted:#64748b;
+    --color-white:#ffffff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Port Lligat Slab", sans-serif;
+    line-height: 1.6;
+    background-color: #f8f6ef;
+    color: #000000;
+}
+
+/* navigation bar */
+header {
+    background-color: #601D74;
+    min-height: 7rem;
+    position:relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem 2rem;
+}
+/*logo*/
+.sistercirclelogo {
+    width: 9rem;
+    height: auto;
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+    z-index: 10;
+}
+/* navigation links */
+
+nav { display: flex; 
+flex-direction: row;
+align-items: center;
+justify-content: flex-end;
+gap: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a{ color: white;
+text-decoration: none;
+font-size: 1.2rem;
+white-space: nowrap;
+}
+
+/* Main content */
+main {
+    background-color: #f8f6ef;
+    padding-top: 1rem;
+    position: relative;
+}
+
+main h1 { margin-bottom: 1rem;}
+
+main p {margin-bottom: 2rem;}
+
+
+
+
+
+.circleimg {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 6rem;
+    border:6px solid #d4af37;
+}
+
+custom-shape-divider-top-1792430853 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
